@@ -1,0 +1,19 @@
+{
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true
+  },
+  "ignorePatterns": ["public/"],
+  "plugins": ["import"],
+  "extends": [
+    "eslint:recommended",
+    "google",
+    "plugin:import"
+  ],
+  "rules": {
+    "max-len": ["error", 120],
+    "require-jsdoc": "off",
+    "comma-dangle": "off",
+    "no-console": 2
+  }
+}

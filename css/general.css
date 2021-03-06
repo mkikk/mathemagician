@@ -1,0 +1,15 @@
+
+body {
+    
+    size: 2em;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    
+}
+.flexbox-item {
+    min-width: 50 px;
+    min-height: 50 px;
+}

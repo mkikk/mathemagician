@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fabulous Mathemagician</title>
+    <script type = "text/javascript" src = "app.js" defer = true></script>
+    <link rel = "stylesheet" href = "/mathemagician/css/index.css";>
+</head>
+<body onload = "startGame()">
+    <div class ="flexbox">
+        <div class = "flexbox-item" id = "firstNum"></div>
+        <div class = "flexbox-item">+</div>
+        <div class = "flexbox-item" id = "secondNum"></div>
+        <div class = "flexbox-item">=</div>
+        <div class = "flexbox-item">
+            <input type = "number" id = "answer" min = 0 max 20 onchange="checkAnswer()">  
+        </div>
+    </div>
+    <div>
+        <h1 id = "timeTaken"></h1>
+    </div>
+</body>
+</html>
